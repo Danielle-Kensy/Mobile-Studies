@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MineProj</string>
+    <string name="button_play">PLAY</string>
+    <string name="button_sound">SOUNDS</string>
+    <string name="button_calculator">CALCULATOR</string>
+    <string name="itens_quantity">How many items do you have?</string>
+    <string name="level_quantity">what is your level?</string>
+    <string name="calculate_button">CALCULATE YOUR POWER</string>
+    <string name="your_power_is">Your power is: </string>
+
+
+</resources>

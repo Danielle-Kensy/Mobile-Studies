@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/cyan100">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="271dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="75dp"
+        android:ems="10"
+        android:hint="@string/main_activity_edittext_name"
+        android:background="@drawable/button_style"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="164dp"
+        android:background="@drawable/candy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextGender"
+        android:layout_width="271dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="75dp"
+        android:background="@drawable/button_style"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="@string/main_activity_edittext_gender"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+    <EditText
+        android:id="@+id/editTextIncome"
+        android:layout_width="271dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="75dp"
+        android:ems="10"
+        android:background="@drawable/button_style"
+        android:gravity="center"
+        android:hint="@string/main_activity_edittext_income"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGender" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="95dp"
+        android:background="@drawable/button_style"
+        android:text="@string/main_activity_button_ok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextIncome" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewClients"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOK"
+        tools:listitem="@layout/row_clients" />
+</androidx.constraintlayout.widget.ConstraintLayout>

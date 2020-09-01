@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerCard</string>
+    <string name="main_activity_edittext_name">Type your name</string>
+    <string name="main_activity_edittext_gender">Type your gender</string>
+    <string name="main_activity_edittext_income">Type your income</string>
+    <string name="main_activity_button_ok">OK</string>
+</resources>

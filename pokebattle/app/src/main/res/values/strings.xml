@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">pokebattle</string>
+
+    <string name="type">POKE TYPE</string>
+
+    <!--    toast-->
+    <string name="tutuga">Squirtle</string>
+    <string name="tutugatwo">Wartotle</string>
+    <string name="tutugathree">Blastoise</string>
+    <string name="bulba">Bulbasaur</string>
+    <string name="bulbatwo">Ivysaur</string>
+    <string name="bulbathree">Venusaur</string>
+    <string name="dragon">Dratini</string>
+    <string name="dragontwo">Dragonair</string>
+    <string name="dragonthree">Dragonite</string>
+
+    <string name="neutral_button">OK</string>
+
+<!--    alert-->
+    <string name="alert_tutuga">Squirtle\'s shell is not merely used for protection. The shell\'s rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.</string>
+    <string name="alert_title_tutuga">Squirtle</string>
+    <string name="alert_tutugatwo">Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon\'s toughness as a battler.</string>
+    <string name="alert_title_tutugatwo">Wartotle</string>
+    <string name="alert_tutugathree">Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.</string>
+    <string name="alert_title_tutugathree">Blastoise</string>
+    <string name="alert_bulba">Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun\'s rays, the seed grows progressively larger.</string>
+    <string name="alert_title_bulba">Bulbasaur</string>
+    <string name="alert_bulbatwo">There is a bud on this Pokémon\'s back. To support its weight, Ivysaur\'s legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it\'s a sign that the bud will bloom into a large flower soon.</string>
+    <string name="alert_title_bulbatwo">Ivysaur</string>
+    <string name="alert_bulbathree">There is a large flower on Venusaur\'s back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower\'s aroma soothes the emotions of people.</string>
+    <string name="alert_title_bulbathree">Venusaur</string>
+    <string name="alert_dragon">It\'s still weak, so it lurks on the floor of bodies of water, eating whatever food sinks down and living a quiet life.</string>
+    <string name="alert_title_dragon">Dratini</string>
+    <string name="alert_dragontwo">Lakes where Dragonair live are filled with offerings from people, because they believe this Pokémon is able to control the weather.</string>
+    <string name="alert_title_dragontwo">Dragonair</string>
+    <string name="alert_dragonthree">It flies over raging seas as if they were nothing. Observing this, a ship\'s captain dubbed this Pokémon "the sea incarnate".</string>
+    <string name="alert_title_dragonthree">Dragonite</string>
+</resources>

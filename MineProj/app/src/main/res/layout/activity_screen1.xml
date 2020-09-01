@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen1"
+    android:background="@drawable/backgroundtwo">
+
+    <Button
+        android:id="@+id/buttonCreeper"
+        android:layout_width="85dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/creeper"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSpider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSpider"
+        android:layout_width="85dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/spider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonCreeper"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonZoombie"
+        android:layout_width="84dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/zombie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonCow"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSpider" />
+
+    <Button
+        android:id="@+id/buttonSheep"
+        android:layout_width="85dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/sheep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCow" />
+
+    <Button
+        android:id="@+id/buttonCow"
+        android:layout_width="85dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/cow"
+        app:layout_constraintEnd_toStartOf="@+id/buttonZoombie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCreeper" />
+</androidx.constraintlayout.widget.ConstraintLayout>

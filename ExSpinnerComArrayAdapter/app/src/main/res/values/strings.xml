@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExSpinnerComArrayAdapter</string>
+    <string name="button_choose">Choose a gender</string>
+</resources>

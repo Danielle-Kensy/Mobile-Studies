@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HornCalculator</string>
+
+    <string name="nameone">Type your name</string>
+    <string name="nametwo">Type your love name</string>
+    <string name="calculate_button">CALCULATE</string>
+    <string name="you_are">You are</string>
+    <string name="horn">Horn</string>
+    <string name="your_name">Your Name is</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">linhaslayout</string>
+
+    <string name="red">Vermelho</string>
+    <string name="green">Verde</string>
+    <string name="blue">Azul</string>
+    <string name="yellow">Amarelo</string>
+
+    <string name="one">Linha Um</string>
+    <string name="two">Linha Dois</string>
+    <string name="three">Linha Três</string>
+    <string name="four">Linha Quatro</string>
+</resources>

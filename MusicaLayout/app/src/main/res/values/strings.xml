@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MusicaLayout</string>
+    
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="relembre">Relembre-me</string>
+
+    <string name="login">ENTRAR</string>
+    <string name="cadastro">CADASTRAR-ME</string>
+    <string name="recuperacao">ESQUECI A CONTA</string>
+</resources>

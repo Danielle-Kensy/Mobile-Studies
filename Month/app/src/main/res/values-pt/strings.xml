@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Month</string>
+    <string name="button_check_month">CHECK</string>
+    <string name="type_a_number">Digite um número</string>
+    <string name="m1">Janeiro</string>
+    <string name="m2">Fevereiro</string>
+    <string name="m3">Março</string>
+    <string name="m4">Abril</string>
+    <string name="m5">Maio</string>
+    <string name="m6">Junho</string>
+    <string name="m7">Julho</string>
+    <string name="m8">Agosto</string>
+    <string name="m9">Setembro</string>
+    <string name="m10">Outubro</string>
+    <string name="m11">Novembro</string>
+    <string name="m12">Dezembro</string>
+    <string name="error">Mês invalido</string>
+</resources>

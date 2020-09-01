@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpinnerTest</string>
+    <string name="type_name">Digite Seu Nome</string>
+    <string name="button_confirm">CONFIRME</string>
+
+    <string-array name="spinner_gender">
+        <item>Escolha Seu Gênero</item>
+        <item>Homem</item>
+        <item>Mulher</item>
+        <item>Não-Binário</item>
+    </string-array>
+
+    <string name="your_name_is">Seu nome é: </string>
+    <string name="your_gender_is">Seu genêro é: </string>
+</resources>

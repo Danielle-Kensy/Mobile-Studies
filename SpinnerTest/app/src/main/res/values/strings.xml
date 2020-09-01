@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SpinnerTest</string>
+    <string name="type_name">Type Your Name</string>
+    <string name="button_confirm">CONFIRM</string>
+
+    <string-array name="spinner_gender">
+        <item>Choose Your Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Non-Binary</item>
+    </string-array>
+
+    <string name="your_name_is">Your name is: </string>
+    <string name="your_gender_is">Your gender is: </string>
+
+</resources>

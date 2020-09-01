@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/red500"
+            android:gravity="top|center"
+            android:text="@string/red" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/green500"
+            android:gravity="top|center"
+            android:text="@string/green" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/blue500"
+            android:gravity="top|center"
+            android:text="@string/blue" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/yellow500"
+            android:gravity="top|center"
+            android:text="@string/yellow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/one"
+            style="@style/text_style"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/two"
+            style="@style/text_style"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/three"
+            style="@style/text_style"
+            android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/four"
+            style="@style/text_style"
+            android:background="@color/black"/>
+    </LinearLayout>
+</RelativeLayout>

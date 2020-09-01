@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LayoutTest</string>
+
+    <string name="hello">hi, how are you?</string>
+    <string name="love">I love you</string>
+    <string name="how">How are you</string>
+    <string name="see">See you later!</string>
+    <string name="nice">Nice to meet you</string>
+</resources>

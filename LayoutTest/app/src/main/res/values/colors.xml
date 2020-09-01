@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- PURPLE PALETTE -->
+    <color name="purple50">#f3e5f5</color>
+    <color name="purple100">#e1bee7</color>
+    <color name="purple200">#ce93d8</color>
+    <color name="purple300">#ba68c8</color>
+    <color name="purple400">#ab47bc</color>
+    <color name="purple500">#9c27b0</color>
+    <color name="purple600">#8e24aa</color>
+    <color name="purple700">#7b1fa2</color>
+    <color name="purple800">#6a1b9a</color>
+    <color name="purple900">#4a148c</color>
+    <color name="purpleA100">#ea80fc</color>
+    <color name="purpleA200">#e040fb</color>
+    <color name="purpleA400">#d500f9</color>
+    <color name="purpleA700">#aa00ff</color>
+</resources>

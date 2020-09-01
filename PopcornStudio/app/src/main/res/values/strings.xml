@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PopcornStudio</string>
+
+    <string name="MovieName">Name: </string>
+    <string name="MovieYear">Year: </string>
+    <string name="MovieType">Type: </string>
+    <string name="MovieAvaliation">Avaliation: </string>
+    <string name="type_name">Type the movie name</string>
+    <string name="choose_avaliation">Avaliation</string>
+    <string name="bad">Bad</string>
+    <string name="good">Good</string>
+    <string name="Great">Great</string>
+    <string name="register">REGISTER</string>
+
+    <string-array name="spinner_year">
+        <item>Choose The Year</item>
+        <item>2000</item>
+        <item>2010</item>
+        <item>2020</item>
+    </string-array>
+</resources>

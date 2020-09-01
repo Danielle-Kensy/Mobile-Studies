@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="red_button">vermeio</string>
+    <string name="yellow_button">marelo</string>
+    <string name="blue_button">azu</string>
+    <string name="green_button">verdin</string>
+    <string name="purple_button">roshu</string>
+    <string name="orange_button">laranja</string>
+    <string name="pink_button">rosa</string>
+</resources>

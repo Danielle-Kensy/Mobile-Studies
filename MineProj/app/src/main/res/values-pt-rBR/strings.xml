@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MineProj</string>
+    <string name="button_play">JOGAR</string>
+    <string name="button_sound">SONS</string>
+    <string name="button_calculator">CALCULADORA</string>
+    <string name="itens_quantity">Quantos itens você tem?</string>
+    <string name="level_quantity">Qual o seu nivel?</string>
+    <string name="calculate_button">CALCULE SEU PODER</string>
+    <string name="your_power_is">Seu poder é: </string>
+</resources>

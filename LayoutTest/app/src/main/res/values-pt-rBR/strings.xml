@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LayoutTest</string>
+
+    <string name="hello">eae cpx, suave?</string>
+    <string name="love">eh nóis</string>
+    <string name="how">tá mac?</string>
+    <string name="see">é nóis que voa!</string>
+    <string name="nice">é as guria</string>
+</resources>

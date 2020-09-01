@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TheLastAirbenderQuizz</string>
+    <string name="button_start">COMEÇAR</string>
+    <string name="welcome">Bem-Vindo ao the Last Airbender Quiz!</string>
+    <string name="button_answer">RESPOSTA</string>
+    <string name="button_next">PRÓXIMA</string>
+    <string name="play_again_button">JOGAR NOVAMENTE</string>
+
+    <!--    toast-->
+    <string name="right">Correto</string>
+    <string name="wrong">Incorreto</string>
+
+    <!--    final message-->
+    <string name="great">Ótimo!</string>
+    <string name="not_bat">Mais o Menos!</string>
+    <string name="you_suck">Você Fede >:(</string>
+
+    <!--    questions-->
+    <string name="question_one">Qual o nome dos irmãos que ajudam Aang em sua jornada?</string>
+    <string name="question_two">Qual o nome da dobradora de terra que aparece na segunda temporada para ensinar Aang?</string>
+    <string name="question_three">Qual era o nome do Monge que cuidava de Aang?</string>
+    <string name="question_four">Qual o nome da primeira namorada de Sokka?</string>
+    <string name="question_five">Qual elemento Aang teve mais dificuldade de dobrar?</string>
+    <string name="question_six">Qual o nome do avatar anterior ao Aang?</string>
+    <string name="question_seven">Quantas temporadas tem a série?</string>
+    <string name="question_eight">Quantas episódios tem no total?</string>
+    <string name="question_nine">O que Zuko queria recuperar em sua busca pelo avatar?</string>
+    <string name="question_ten">Qual a cor do fogo dobrado por Azula?</string>
+    <string name="question_one_option_a">A.Sokka e Katara</string>
+    <string name="question_two_option_a">A.Katara</string>
+    <string name="question_three_option_a">A.Kuei</string>
+    <string name="question_four_option_a">A.Yue</string>
+    <string name="question_five_option_a">A.Ar</string>
+    <string name="question_six_option_a">A.Roku</string>
+    <string name="question_seven_option_a">A.3 Temporadas</string>
+    <string name="question_eight_option_a">A.48</string>
+    <string name="question_nine_option_a">A.Honra</string>
+    <string name="question_ten_option_a">A.Verde</string>
+    <string name="question_one_option_b">B.Sokka e Suki</string>
+    <string name="question_two_option_b">B.Toph</string>
+    <string name="question_three_option_b">B.Ozai</string>
+    <string name="question_four_option_b">B.Ty Lee</string>
+    <string name="question_five_option_b">B.Terra</string>
+    <string name="question_six_option_b">B.Kuruk</string>
+    <string name="question_seven_option_b">B.4 Temporadas</string>
+    <string name="question_eight_option_b">B.100</string>
+    <string name="question_nine_option_b">B.Diguinidade</string>
+    <string name="question_ten_option_b">B.Azul</string>
+    <string name="question_one_option_c">C.Zuko e Azula</string>
+    <string name="question_two_option_c">C.Joo Dee</string>
+    <string name="question_three_option_c">C.Gyatso</string>
+    <string name="question_four_option_c">C.Korra</string>
+    <string name="question_five_option_c">C.Fogo</string>
+    <string name="question_six_option_c">C.Kyoshi</string>
+    <string name="question_seven_option_c">C.1 Temporada</string>
+    <string name="question_eight_option_c">C.61</string>
+    <string name="question_nine_option_c">C.Felicidade</string>
+    <string name="question_ten_option_c">C.Amarelo</string>
+</resources>

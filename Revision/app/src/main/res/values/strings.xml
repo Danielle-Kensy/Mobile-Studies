@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Revision</string>
+    <string name="dial_button">DIAL</string>
+    <string name="student_button">STUDENT</string>
+    <string name="square_button">SQUARE</string>
+    <string name="type_phone">Type a Phone</string>
+    <string name="type_name">Type Your Name</string>
+    <string name="type_gradeone">Type Your First Grade</string>
+    <string name="type_gradetwo">Type Your Second Grade</string>
+    <string name="button_average">AVERAGE</string>
+    <string name="button_calculate">CALCULATE</string>
+    <string name="type_square_side">Type Square Side</string>
+
+
+    <string-array name="spinner_square">
+        <item>Choose The Calculation</item>
+        <item>Area</item>
+        <item>Perimeter</item>
+        <item>Both</item>
+    </string-array>
+</resources>

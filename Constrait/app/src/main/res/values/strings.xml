@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Constrait</string>
+
+    <string name="red_button">Red</string>
+    <string name="yellow_button">Yellow</string>
+    <string name="blue_button">Blue</string>
+    <string name="green_button">Green</string>
+    <string name="purple_button">Purple</string>
+    <string name="orange_button">Orange</string>
+    <string name="pink_button">Pink</string>
+
+
+</resources>

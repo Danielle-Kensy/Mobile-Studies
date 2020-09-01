@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginTest</string>
+    <string name="login">LOGIN</string>
+    <string name="type_your_login">Type your login</string>
+    <string name="fill_the_field">Fill the field...</string>
+    <string name="type_url">Type an URL</string>
+    <string name="open">OPEN</string>
+</resources>

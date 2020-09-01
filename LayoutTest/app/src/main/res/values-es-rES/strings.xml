@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LayoutTest</string>
+
+    <string name="hello">Hola Cómo vas?</string>
+    <string name="love">te quiero</string>
+    <string name="how">como andas?</string>
+    <string name="see">nos vemos más tarde</string>
+    <string name="nice">un placer conocerte</string>
+</resources>

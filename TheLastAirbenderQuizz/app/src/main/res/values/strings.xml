@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">TheLastAirbenderQuizz</string>
+    <string name="button_start">START</string>
+    <string name="welcome">Welcome to the Last Airbender Quiz!</string>
+    <string name="button_answer">ANSWER</string>
+    <string name="button_next">NEXT</string>
+    <string name="play_again_button">PLAY AGAIN</string>
+
+    <!--    toast-->
+    <string name="right">Correct</string>
+    <string name="wrong">Incorrect</string>
+
+<!--    final message-->
+    <string name="great">Great!</string>
+    <string name="not_bat">Not Bad!</string>
+    <string name="you_suck">You suck >:(</string>
+
+
+<!--    questions-->
+    <string name="question_one">What are the names of the brothers who help Aang on his journey?</string>
+    <string name="question_two">What is the name of the earth bender that appears in the second season to teach Aang?</string>
+    <string name="question_three">What was the name of the Monk who took care of Aang?</string>
+    <string name="question_four">What is the name of Sokka\'s first girlfriend?</string>
+    <string name="question_five">Which element did Aang find it more difficult to bend?</string>
+    <string name="question_six">What is the name of the avatar before Aang?</string>
+    <string name="question_seven">How many seasons does the series have?</string>
+    <string name="question_eight">How many episodes do you have in total?</string>
+    <string name="question_nine">What did Zuko want to recover in his search for the avatar?</string>
+    <string name="question_ten">What color is the fire doubled by Azula?</string>
+    <string name="question_one_option_a">A.Sokka e Katara</string>
+    <string name="question_two_option_a">A.Katara</string>
+    <string name="question_three_option_a">A.Kuei</string>
+    <string name="question_four_option_a">A.Yue</string>
+    <string name="question_five_option_a">A.Air</string>
+    <string name="question_six_option_a">A.Roku</string>
+    <string name="question_seven_option_a">A.3 Seasons</string>
+    <string name="question_eight_option_a">A.48</string>
+    <string name="question_nine_option_a">A.Honor</string>
+    <string name="question_ten_option_a">A.Green</string>
+    <string name="question_one_option_b">B.Sokka e Suki</string>
+    <string name="question_two_option_b">B.Toph</string>
+    <string name="question_three_option_b">B.Ozai</string>
+    <string name="question_four_option_b">B.Ty Lee</string>
+    <string name="question_five_option_b">B.Earth</string>
+    <string name="question_six_option_b">B.Kuruk</string>
+    <string name="question_seven_option_b">B.4 Seasons</string>
+    <string name="question_eight_option_b">B.100</string>
+    <string name="question_nine_option_b">B.Dignity</string>
+    <string name="question_ten_option_b">B.Blue</string>
+    <string name="question_one_option_c">C.Zuko e Azula</string>
+    <string name="question_two_option_c">C.Joo Dee</string>
+    <string name="question_three_option_c">C.Gyatso</string>
+    <string name="question_four_option_c">C.Korra</string>
+    <string name="question_five_option_c">C.Fire</string>
+    <string name="question_six_option_c">C.Kyoshi</string>
+    <string name="question_seven_option_c">C.1 Season</string>
+    <string name="question_eight_option_c">C.61</string>
+    <string name="question_nine_option_c">C.Happiness</string>
+    <string name="question_ten_option_c">C.Yellow</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DiscatorTest</string>
+    <string name="type_email">Type Your email</string>
+    <string name="button_login">LOGIN</string>
+    <string name="type_something">Type Something</string>
+    <string name="button_share">SHARE</string>
+    <string name="toast_message">You are logged in </string>
+    <string name="make_call">CALL</string>
+    <string name="type_phone">Type a Phone</string>
+    <string name="allow">please allow the permission to make the call!</string>
+</resources>

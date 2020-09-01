@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pokebattle</string>
+
+    <string name="type">POKE TYPE</string>
+
+    <!--    toast-->
+    <string name="tutuga">Squirtle</string>
+    <string name="tutugatwo">Wartotle</string>
+    <string name="tutugathree">Blastoise</string>
+    <string name="bulba">Bulbasaur</string>
+    <string name="bulbatwo">Ivysaur</string>
+    <string name="bulbathree">Venusaur</string>
+    <string name="dragon">Dratini</string>
+    <string name="dragontwo">Dragonair</string>
+    <string name="dragonthree">Dragonite</string>
+
+    <string name="neutral_button">OK</string>
+
+    <!--    alert-->
+    <string name="alert_tutuga">El caparazón de Squirtle no se usa simplemente para protección. La forma redondeada del caparazón y los surcos en su superficie ayudan a minimizar la resistencia en el agua, lo que permite a este Pokémon nadar a altas velocidades.</string>
+    <string name="alert_title_tutuga">Squirtle</string>
+    <string name="alert_tutugatwo">Su cola es grande y está cubierta con un pelaje rico y grueso. La cola se vuelve cada vez más profunda en color a medida que Wartortle envejece. Los rasguños en su caparazón son evidencia de la dureza de este Pokémon como luchador.</string>
+    <string name="alert_title_tutugatwo">Wartotle</string>
+    <string name="alert_tutugathree">Blastoise tiene picos de agua que sobresalen de su caparazón. Las boquillas de agua son muy precisas. Pueden disparar balas de agua con suficiente precisión para golpear latas vacías desde una distancia de más de 160 pies.</string>
+    <string name="alert_title_tutugathree">Blastoise</string>
+    <string name="alert_bulba">Bulbasaur se puede ver tomando una siesta a la luz del sol. Hay una semilla en su espalda. Al absorber los rayos del sol, la semilla crece progresivamente más grande.</string>
+    <string name="alert_title_bulba">Bulbasaur</string>
+    <string name="alert_bulbatwo">Hay un brote en la espalda de este Pokémon. Para soportar su peso, las piernas y el tronco de Ivysaur se vuelven gruesos y fuertes. Si comienza a pasar más tiempo tumbado a la luz del sol, es una señal de que el brote florecerá en una gran flor pronto.</string>
+    <string name="alert_title_bulbatwo">Ivysaur</string>
+    <string name="alert_bulbathree">Hay una gran flor en la espalda de Venusaur. Se dice que la flor adquiere colores vivos si recibe mucha nutrición y luz solar. El aroma de la flor alivia las emociones de las personas.</string>
+    <string name="alert_title_bulbathree">Venusaur</string>
+    <string name="alert_dragon">Todavía está débil, por lo que acecha en el suelo de cuerpos de agua, come cualquier alimento que se hunde y vive una vida tranquila.</string>
+    <string name="alert_title_dragon">Dratini</string>
+    <string name="alert_dragontwo">Los lagos donde viven Dragonair están llenos de ofertas de personas, porque creen que este Pokémon puede controlar el clima.</string>
+    <string name="alert_title_dragontwo">Dragonair</string>
+    <string name="alert_dragonthree">Vuela sobre mares furiosos como si no fueran nada. Observando esto, el capitán de un barco apodó a este Pokémon como "la encarnación del mar".</string>
+    <string name="alert_title_dragonthree">Dragonite</string>
+</resources>

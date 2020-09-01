@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalculadoraDeChifre</string>
+
+    <string name="nameone">Digite seu nome</string>
+    <string name="nametwo">Digite o nome do seu amor</string>
+    <string name="calculate_button">CALCULAR</string>
+    <string name="you_are">Você é</string>
+    <string name="horn">Corno</string>
+    <string name="your_name">Seu nome é:</string>
+</resources>
