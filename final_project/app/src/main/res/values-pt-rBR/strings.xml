@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">final_project</string>
+    <string name="button_story">História</string>
+    <string name="button_races">Raças</string>
+    <string name="button_rules">Regras</string>
+    <string name="button_register">Registrar</string>
+    <string name="story">Neste mundo mágico existem quatro reinos: O verão, o inverno, o outono e a primavera, e esses controlam o equilíbrio das estações na Terra.
+
+Um dia, o famoso Necromante chamado Robson, que controla a mudança das estações, estava procurando seu Necrobook imobilizado. Ele viaja no tempo e acidentalmente cai em uma armadilha que acabou ficando preso na estação da primavera causando uma desordem na ordem natural deste universo.
+
+Agora robson precisa recuperar seu Necrobook enquanto tenta encontrar uma saída para escapar da estação da primavera e restaurar o equilíbrio natural das estações, porque se o livro ficar mais nas mãos erradas será usado para o mal e a paz do reinos serão destruídos.
+
+Sua missão é ajudar Robson a restaurar a paz das estações e recuperar seu livro, e esta não será uma missão fácil, você precisará lutar com muitos monstros enquanto tenta descobrir quem parou o livro. Você está pronto?
+    </string>
+    <string name="rules">
+
+\n ✦ Você só pode ter cinco caracteres. \n
+
+        ✦ Respeite o tempo dos outros jogadores. \n
+
+     ✦ Pessoas diferentes gostam de coisas diferentes (e tudo bem). \n
+
+        ✦ Seja um jogador ativo. \n
+
+     ✦ Se seu personagem morrer, lide com isso e faça outro. \n
+
+        ✦ Seja um bom perdedor, ninguém quer ouvir seu choro. \n
+
+     ✦ Divirta-se :)</string>
+    <string name="alert_alien_title">ALIENIGENA</string>
+    <string name="alert_alien">
+A mais misteriosa de todas as raças tem grande afinidade com armas de fogo, dizem que suas afinidades com a magia são muito poderosas por serem seres místicos, ninguém sabe muito bem porque eles habitam os reinos ou quando chegaram, é uma raça muito antiga e poderosa.
+    </string>
+    <string name="alert_neutral_button">OK</string>
+
+    <string name="alert_human_title">HUMAN0</string>
+    <string name="alert_human">Uma das raças mais fracas, mas não se engane, os humanos também podem ser guerreiros muito poderosos e ter afinidade com todos os tipos de armas alguns também podem ter muita afinidade com magia eles são muito leais e quase sempre vão em missões em grupo.</string>
+
+    <string name="alert_elf_title">ELFO</string>
+    <string name="alert_elf">Normalmente esta raça possui muita afinidade com arco e flecha, são muito habilidosos e precisos e também possuem grande afinidade com magia o que os torna uma raça muito poderosa. Eles também são da floresta e estão muito conectados com a natureza, você não vai querer encontrá-los no campo de batalha.</string>
+
+    <string name="alert_undead_title">MORTO-VIVO</string>
+    <string name="alert_undead">São seres muito frios que normalmente só se preocupam com eles próprios, grande afinidade com a magia e ao contrário do que muitos pensam, são muito ágeis e fortes e convivem com armas de curta distância. Normalmente trabalha sozinho, mas também pode ser muito poderoso em grupos.</string>
+    <string name="character_hp">Pontos de vida</string>
+    <string name="character_gender">Genero</string>
+    <string name="character_mp">Pontos de magia</string>
+    <string name="character_primary_weapon">Arma primária</string>
+    <string name="character_secondary_weapon">Arma secundária</string>
+    <string name="character_name">Nome</string>
+    <string name="character_height">Altura</string>
+    <string name="character_age">Idade</string>
+    <string name="character_race">Raça</string>
+    <string name="character_id">ID</string>
+    <string name="character_age_text">Digite sua idade</string>
+    <string name="character_hp_text">Digite seus pontos de vida</string>
+    <string name="character_mp_text">Digite seus pontos de magia</string>
+    <string name="character_height_text">Digite sua altura</string>
+    <string name="character_name_text">Digite seu nome</string>
+    <string name="character_list">Lista de personagens</string>
+    <string name="list_attention">Atenção</string>
+    <string name="list_delete_or_update">Você deseja excluir ou alterar?</string>
+    <string name="list_delete">Excluir</string>
+    <string name="list_update">Alterar</string>
+    <string name="list_character">Personagem</string>
+    <string name="list_error">Erro!</string>
+    <string name="list_delete_character">Personagem excluído com sucesso!</string>
+    <string name="list_return_code">Código de retorno</string>
+    <string name="add_character_updated_return">Personagem alterado!/retornar</string>
+    <string name="add_character_registered">Personagem cadastrado</string>
+    <string name="add_character">personagem</string>
+    <string name="add_is_not_null">Não é nulo, alterar.</string>
+    <string name="add_update_character">Alterar personagem</string>
+    <string name="button_list">Lista de personagens</string>
+
+
+    <string-array name="spinner_races">
+        <item>Selecione sua raça</item>
+        <item>Alienigena</item>
+        <item>Humano</item>
+        <item>Elfo</item>
+        <item>Morto-vivo</item>
+    </string-array>
+
+    <string-array name="spinner_gender">
+        <item>Selecione seu genêro</item>
+        <item>Feminino</item>
+        <item>Masculino</item>
+        <item>Outro</item>
+    </string-array>
+
+    <string-array name="spinner_primaryWeapon">
+        <item>Selecione sua arma principal</item>
+        <item>Espada</item>
+        <item>Arma de laser</item>
+        <item>Varinha magica</item>
+        <item>Espada de duas mãos</item>
+        <item>Arco</item>
+    </string-array>
+
+    <string-array name="spinner_secondaryWeapon">
+        <item>Selecione sua arma secundária</item>
+        <item>Banana</item>
+        <item>Machado</item>
+        <item>Dinossauro de plastico</item>
+        <item>Adaga</item>
+        <item>Espada de spagghetti</item>
+    </string-array>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2"
+    android:background="@drawable/background_png">
+
+    <Button
+        android:id="@+id/buttonAlien"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/alien_png"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonElf"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/elf_png"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHuman" />
+
+    <Button
+        android:id="@+id/buttonHuman"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/human_png"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAlien" />
+
+    <Button
+        android:id="@+id/buttonUndead"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/undead_png"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonElf" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

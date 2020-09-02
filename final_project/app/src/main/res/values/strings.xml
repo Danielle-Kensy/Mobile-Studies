@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">final_project</string>
+    <string name="button_story">Story</string>
+    <string name="button_races">Races</string>
+    <string name="button_rules">Rules</string>
+    <string name="button_register">Register</string>
+    <string name="story">In this magic world there is four kingdoms: The Summer, The Winter, The Autumn and The Spring, and those control the balance of the seasons on Earth.
+
+One day the famous Necromancer called Robson, who controls the change of seasons, was looking for his stilled Necrobook. He travels into the time and accidentally fall in a trap endded up staying stuck in the season of spring causing a desorder in the natural order of this universe.
+
+Now robson needs to recover his Necrobook while trying to find a way out to escape season of Spring and restore the natural balance of the seasons, because if the book stays in wrong hands any longer it will be used for the evil and the peace of the kingdoms will be destroyed.
+
+Your mission is to help Robson to restore the peace of the seasons and recover his book, and this isn´t going to be an easy mission, you will need to fight with a lot of monsters while trying to dicover who stilled the book. Are you ready?
+    </string>
+    <string name="rules">
+       \n ✦ You only can have five characters.\n
+
+        ✦ Respect the Other Players Time.\n
+
+     ✦ Different People Like Different Things (And That\'s Ok).\n
+
+        ✦ Be an Active Player.\n
+
+     ✦ If your character die deal with that and make another one.\n
+
+        ✦ Be a good loser nobody wants to hear your cry.\n
+
+     ✦ Have fun :)</string>
+    <string name="alert_alien_title">ALIEN</string>
+    <string name="alert_alien">The most mysterious of all races has great affinity with firearms, say their affinities with magic are very powerful for being mystical beings, nobody knows very well because they inhabit the kingdoms or when they arrived, it is a very race ancient and powerful.
+    </string>
+    <string name="alert_neutral_button">OK</string>
+
+    <string name="alert_human_title">HUMAN</string>
+    <string name="alert_human">One of the weaker races, but make no mistake, the humans can also be very powerful warriors and have affinity with all types of weapons some may also have a lot of affinity with magic they are very loyal and almost always go on group missions.</string>
+
+    <string name="alert_elf_title">ELF</string>
+    <string name="alert_elf">Normally this race has a lot of affinity using bow and arrows, are very skilled and accurate and also have great affinity with magic what makes them a very powerful race. They also are from the forest and are very connected to nature, you will not want to find them on the battlefield.</string>
+
+    <string name="alert_undead_title">UNDEAD</string>
+    <string name="alert_undead">They are very cold beings that normally only care about them themselves, great affinity with magic and contrary to what many think they\'re very agile and strong and get along with short distances weapons. Usually work alone but can also be very powerful in groups.</string>
+    <string name="character_hp">HP</string>
+    <string name="character_gender">Gender</string>
+    <string name="character_mp">MP</string>
+    <string name="character_primary_weapon">Primary Weapon</string>
+    <string name="character_secondary_weapon">Secondary Weapon</string>
+    <string name="character_name">Name</string>
+    <string name="character_height">Height</string>
+    <string name="character_age">Age</string>
+    <string name="character_race">Race</string>
+    <string name="character_id">ID</string>
+    <string name="character_age_text">Type your age</string>
+    <string name="character_hp_text">Type your HP</string>
+    <string name="character_mp_text">Type your MP</string>
+    <string name="character_height_text">Type your height</string>
+    <string name="character_name_text">Type your name</string>
+    <string name="character_list">Character list</string>
+    <string name="list_attention">Attention</string>
+    <string name="list_delete_or_update">Do you wish to delete or update?</string>
+    <string name="list_delete">Delete</string>
+    <string name="list_update">Update</string>
+    <string name="list_character">Character</string>
+    <string name="list_error">Error!</string>
+    <string name="list_delete_character">Character delete completed</string>
+    <string name="list_return_code">Return code</string>
+    <string name="add_character_updated_return">Character update!/return</string>
+    <string name="add_character_registered">Character registered</string>
+    <string name="add_character">character</string>
+    <string name="add_is_not_null">Isn`t null, update.</string>
+    <string name="add_update_character">Update character</string>
+    <string name="button_list">Character list</string>
+
+
+    <string-array name="spinner_races">
+        <item>Select your race</item>
+        <item>Alien</item>
+        <item>Human</item>
+        <item>Elf</item>
+        <item>Undead</item>
+    </string-array>
+
+    <string-array name="spinner_gender">
+        <item>Select your gender</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="spinner_primaryWeapon">
+        <item>Select your primary weapon</item>
+        <item>Sword</item>
+        <item>Laser Weapon</item>
+        <item>Magic Wand</item>
+        <item>Two hand Sword</item>
+        <item>Bow</item>
+    </string-array>
+
+    <string-array name="spinner_secondaryWeapon">
+        <item>Select your secondary weapon</item>
+        <item>Banana</item>
+        <item>Axe</item>
+        <item>Plastic Dinosaur</item>
+        <item>Dagger</item>
+        <item>Spagetti Sword</item>
+    </string-array>
+
+
+</resources>
