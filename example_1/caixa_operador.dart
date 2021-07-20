@@ -1,13 +1,11 @@
 import 'endereco.dart';
 import 'funcionario.dart';
 
-class Gerente extends Funcionario {
-  int _ramal;
+class CaixaOperador extends Funcionario {
+  int _guiche;
 
-  int get ramal => this._ramal;
-  //Método construtor
-  Gerente(
-    this._ramal,
+  CaixaOperador(
+    this._guiche,
     int hMatricula,
     double hSalario,
     String hNome,
@@ -29,12 +27,6 @@ class Gerente extends Funcionario {
           hEmail,
         );
 
-  set ramal(int? ramal) {
-    this.ramal = ramal;
-  }
-
-  //@override
-  //String toString() {
-  //return "Dados do(a) gerente: ${this._nome}\nMatrícula: ${this._matricula}\nEmail: ${this._email}\nEmail: ${this._email}\nTelefone: ${this._telefone}\nRamal: ${this._ramal}";
-//}
+  int get guiche => this._guiche;
+  set guiche(int value) => this._guiche = value;
 }
