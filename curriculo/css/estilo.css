@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@author "Danielle Kensy";
+
+body{
+  background-image: url(../img/bg3.png);
+  background-attachment: fixed;
+  color:white;
+  font-family: verdana;
+  text-shadow:1px 1px 1px black;
+
+}
+
+.geral{
+  width:80%;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin:0 auto;
+  border-radius: 20px;
+  border: 2px solid silver;
+}
+
+li{
+  padding: 7px;
+}
+
+.imagem{
+  width: 70px
+}
+
+.imagem img{
+	width: 100%;
+}
+.imagem2{
+  width: 55px;
+}
+
+.imagem2 img{
+	width: 100%;
+}
+
+.foto{
+  width: 250px;
+  float: right;
+  margin: 20px;
+  border: 4px solid #317584;
+
+}
+
+.foto img{
+	width: 100%;
+}
+
+.titulos{
+  text-align:center;
+  font-family: Arial black;
+  font-size:40px;
+  text-shadow:2px 4px 4px #265C68,
+        -2px -2px 4px #265C68;
+}
+p{
+  padding: 25px;
+}

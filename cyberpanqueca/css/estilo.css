@@ -1,0 +1,191 @@
+@charset "UTF-8";
+@author "Danie e Renatex";
+
+*{
+  font-family:century gothic;
+  margin:0;
+  font-weight: bold;
+
+
+}
+
+body{
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+h1{
+  background-color: rgba(120, 88, 71, 0.5);
+  height: 60px;
+  padding: 7px;
+}
+
+.geral{
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.topo{
+  height: 140px;
+}
+
+.peb{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo{
+  width: 15%;
+  margin-left: 5%;
+  float: left;
+}
+.banner{
+  background-image: url(../img/banner.png);
+  background-size: 100% 100%;
+}
+.cardapioimg{
+  background-image: url(../img/cardapio.png);
+  background-size: 100% 100%;
+}
+
+p{
+  font-size: 16px;
+	text-indent: 15px;
+	margin-left: 6px;
+	padding:2px;
+	text-align: center;
+}
+
+.btn{
+  background-color: #785847;
+  color: white;
+  margin: 10px;
+}
+.rodape{
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	border-radius: 6px;
+	line-height:40px;
+	float:none;
+	clear:both;
+}
+.menu{
+  width: 80%;
+  float: right;
+  height: 70px;
+  font-size: 13pt;
+  margin-top:4%;
+}
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+  line-height: 1;
+}
+
+.menu ul li{
+  text-align: center;
+  display: inline-block;
+}
+
+.menu ul li a{
+  display: block;
+  color: #785847;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+.menu ul li a:hover{
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #785847;
+}
+
+/*EDITANDO PÁGINA CONTATO*/
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.org{
+  width: 100%;
+
+}
+
+.tamanho{
+    width: 15%;
+    margin: 2%;
+    float: left;
+}
+
+.tamanho2{
+    width: 72%;
+    margin: 2%;
+    float: left;
+}
+
+.tamanho3{
+    width: 25%;
+    margin: 2%;
+    float: left;
+}
+
+.tamanho4{
+    width: 60%;
+    margin: 2%;
+    float: left;
+}
+
+.ws_images{
+   width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .geral{
+    width: 100%;
+  }
+  .banner{
+    height: 450px;
+  }
+  .cardapioimg{
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .geral{
+    width: 100%;
+  }
+  .banner{
+    height: 300px;
+  }
+  .cardapioimg{
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .geral{
+    width: 90%;
+  }
+  .banner{
+    height: 200px;
+    margin-top: -50px;
+  }
+  .cardapioimg{
+    height: 178px;
+  }
+  .menu{
+    width: 80%;
+    float: right;
+    height: 50px;
+    font-size: 10pt;
+    margin-top:4%;
+  }
+}

@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@author "Danielle Kensy";
+
+/*formatando tudo:*/
+*{
+  font-family: verdana;
+  margin:0;
+  color: #E2E8FB;
+  text-shadow:1px 1px 1px black;
+}
+
+body{
+  background-image: url(../img/bg.png);
+  background-attachment: fixed;
+}
+
+.geral{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+/*formatando o container header - topo:*/
+.topo{
+  width: 100%;
+  height: 270px;
+  background-image: url(../img/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 29px 29px 29px 29px;
+
+}
+
+/*formatando o container esquerdo e direito:*/
+.esquerdo, .direito{
+  width: 25%;
+  padding: 0.6%;
+  background-color: rgba(152, 156, 221, 0.5);
+  float: left;
+}
+
+/*formatando o container centro:*/
+.centro{
+  width: 44%;
+  padding: 0.6%;
+  margin: 0 1.2%;
+  float: left;
+  background-color: rgba(152, 156, 221, 0.5);
+}
+
+/*formatando imagem*/
+.imagemcentro img{
+  width: 100%;
+  border-radius: 30px;
+}
+
+p{
+  text-align: justify;
+  text-indent: 20px;
+  font-size: 13pt;
+}
+
+h1{
+  text-align: center;
+  padding: 15px;
+  font-size: 30pt;
+}

@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@author "Danielle Kensy";
+
+/*formatando tudo:*/
+*{
+  font-family: verdana;
+  margin:0;
+  color: #E2E8FB;
+  text-shadow:1px 1px 1px black;
+}
+
+body{
+  background-image: url(../img/bg.png);
+  background-attachment: fixed;
+}
+
+.geral{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+/*formatando o container header - topo:*/
+.topo{
+  width: 100%;
+  height: 270px;
+  background-image: url(../img/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 29px 29px 29px 29px;
+
+}
+
+/*formatando o container esquerdo e direito:*/
+.esquerdo, .direito{
+  width: 25%;
+  padding: 0.6%;
+  background-color: rgba(152, 156, 221, 0.5);
+  float: left;
+}
+
+/*formatando o container centro:*/
+.centro{
+  width: 44%;
+  padding: 0.6%;
+  margin: 0 1.2%;
+  float: left;
+  background-color: rgba(152, 156, 221, 0.5);
+}
+
+/*formatando imagem*/
+.imagemcentro img{
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 30px;
+}
+
+p{
+  text-align: justify;
+  text-indent: 20px;
+  font-size: 13pt;
+}
+
+h1{
+  text-align: center;
+  padding: 15px;
+  font-size: 30pt;
+}
+
+/*trabalhando com dispositivos tablet horizontal:*/
+@media screen and (max-width: 900px) {
+  .geral{
+    width: 100%;
+  }
+  .esquerdo, .centro{
+    padding: 0.6%;
+    margin:0 1.2%;
+    float: left;
+    width: 46.4%;
+  }
+  .direito{
+    clear: both;
+    float: none;
+    width: 98.8%;
+    padding: 0.6%;
+    margin-top: 10px;
+  }
+}
+
+/*trabalhando com dispositivos tablet vertical:*/
+@media screen and (max-width: 600px) {
+  .geral{
+    width: 100%;
+  }
+  .esquerdo, .centro, .direito{
+    width: 98.4%;
+    float: none;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0.8%;
+  }
+  .topo{
+    height: 200px;
+  }
+}
+
+/*Trabalhando com dispositivos de celulares: */
+@media screen and (max-width: 480px) {
+  .geral{
+    width: 100%;
+  }
+  .esquerdo, .centro{
+    width: 98.4%;
+    float: none;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0.8%;
+  }
+  .direito{
+    display: none;
+  }
+  .topo{
+    height: 180px;
+  }
+}

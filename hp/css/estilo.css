@@ -1,0 +1,155 @@
+@charset "UTF-8";
+@author "Danielle Kensy";
+
+body{
+  background-image: url(../img/bg2.png);
+  background-attachment: fixed;
+  font-family: verdana;
+  text-align: center;
+  text-indent: 25px;
+  font-size: 15px;
+
+}
+
+.geral{
+  background-color: #191919;
+  margin: auto;
+  width:900px;
+  border-radius: 59px 59px 30px 30px;
+}
+
+header{
+  width: 100%;
+  height: 250px;
+  background-image: url(../img/header1.png);
+  background-size: 100% 100%;
+  border-radius: 59px 59px 59px 59px;
+  /*border: 7px dotted #BEE4F4;*/
+}
+
+/*menu:*/
+.menu{
+  width: 70%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+/*Definindo cores e largura:*/
+.menu{
+  width: auto;
+  background-color:#4B8550;
+}
+
+/*retirar os marcadores:*/
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+  line-height: 1;
+}
+
+.menu ul li{
+  text-align: center;
+  display: inline-block;
+}
+
+.menu ul li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+/*retirar link:*/
+.menu ul li a:hover{
+  color: #4A713E;
+  text-shadow: 1px 1px 2px #4A713E;
+  background-color: #144C2C;
+}
+
+/*imagens*/
+.imagem1{
+  background-color: #7CAB66;
+  width: 300px; float: right;
+  height: 300px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 59px;
+}
+
+.imagem2{
+  background-color: #7CAB66;
+  width: 300px; float: right;
+  height: 300px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 59px;
+}
+
+.figura img{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.figura2 img{
+  width: 90%;
+  border-radius: 59px;
+  margin: 0 auto;
+}
+
+.imagem1 h2{
+  font-family: Arial black;
+  font-size: 30px;
+  text-align: center;
+  color: #CCBBA1;
+  text-shadow: 1px 4px 2px #5F574D;
+  background-color: #4A713E;
+  border-radius: 25px 25px 0 0;
+}
+
+.imagem2 h2{
+  font-family: Arial black;
+  font-size: 30px;
+  text-align: center;
+  color: #CCBBA1;
+  text-shadow: 1px 4px 2px #5F574D;
+  background-color: #4A713E;
+  border-radius: 25px 25px 0 0;
+}
+
+aside{
+  background-color: #7CAB66;
+  width: 550px;
+  float: left;
+  height: 610px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 59px;
+}
+
+.conteudo h1{
+  font-family: Arial black;
+  font-size: 30px;
+  text-align: center;
+  color: #CCBBA1;
+  text-shadow: 1px 4px 2px #5F574D;
+  background-color: #4A713E;
+  border-radius: 25px 25px 0 0;
+}
+
+footer{
+  clear: both;
+  width: 100%;
+  float: none;
+}
+
+.rodape{
+  width: 1000px;
+  height: 30px;
+  background-color: #4B8550;
+  color:#fff;
+  border-radius: 0 0 20px 20px;
+  vertical-align: middle;
+  display: table-cell;
+}

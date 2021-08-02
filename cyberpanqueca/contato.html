@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <title>Cyber Panqueca</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Site feito para uma rede de cyber cafés, contendo informações, endereço,
+    inscrição para trabalho, contato, imagens, computadores e dispositivos utilizados no estabelecimento.">
+    <meta name="keywords" content="Cyber café, lanhouse, cafeteria, computadores, restaurante.">
+    <meta name="author" content="Danielle e Renata">
+    <link rel="shortcut icon" href="img/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <style type="text/css">
+      #rodape{
+        background-color:#785847;
+        color:white;
+        text-align:center;
+        height:40px;
+        line-height:40px;
+      }
+      .botaotopo{
+        right:2px;
+        display:scroll;
+        position:fixed;
+        bottom:40px;
+      }
+    </style>
+
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+         });
+      });
+
+      function verifica(){
+        var form2 = document.getElementById('form2');
+        var nome = document.getElementById('txtnome').value;
+        var idade = document.getElementById('idade').value;
+        var email = document.getElementById('email').value;
+        var erro = document.getElementById('erro');
+        var msg_erro;
+
+        if(nome.length<2)
+          msg_erro = 'Campo NOME incorreto';
+        else if(email.length<2)
+          msg_erro = 'Campo Email incorreto';
+        else
+          msg_erro = '';
+
+
+        if(msg_erro == '')
+          form.submit();
+        else
+          erro.innerHTML = msg_erro;
+
+      }
+
+      function verifica1(){
+        var nome = document.getElementById('nome').value;
+        var idade = document.getElementById('idade').value;
+        var email1 = document.getElementById('email1').value;
+        var endereco = document.getElementById('endereco').value;
+        var cpf = document.getElementById('cpf').value;
+        var tel = document.getElementById('tel').value;
+        var erro1 = document.getElementById('erro1');
+        var msg_erro1;
+
+        if(nome.length<2)
+          msg_erro1 = 'Campo NOME incorreto';
+        else if(email1.length<2)
+          msg_erro1 = 'Campo Email incorreto';
+        else if(idade.length<2)
+          msg_erro1 = 'Campo IDADE incorreto';
+        else if(endereco.length<5)
+          msg_erro1 = 'Campo ENDEREÇO incorreto';
+        else if(cpf.length<1 && cpf.length<1)
+          msg_erro1 = 'Campo CPF incorreto';
+        else if(tel.length<1 && tel.length<12)
+          msg_erro1 = 'Campo Telefone incorreto';
+        else
+          msg_erro1 = '';
+
+
+        if(msg_erro1 == '')
+          form.submit();
+        else
+          erro1.innerHTML = msg_erro1;
+
+      }
+    </script>
+  </head>
+  <body>
+    <div class="geral">
+      <header class="topo" class="col-md-12 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+          <img class="logo" src="img/logo.png" alt="logo cyber panqueca">
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#sugestoes" class="scroll">Sugestões</a></li>
+            <li><a href="#trabalho" class="scroll">Trabalhe Conosco</a></li>
+          </ul>
+        </nav>
+      </header>
+      <figure class="banner" class="col-md-12 col-sm-6 col-xs-12" style="height:450px;">
+        <!--CSS-->
+      </figure>
+
+        <section class="container-fluid">
+          <h1>Localização</h1>
+          <div id="mapa" class="col-md-12 col-sm-12 col-xs-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221278.56612822184!2d-51.29644066781118!3d-29.936938250726822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519770bf819649f%3A0x627245710ea51ad6!2sQI%20-%20Escolas%20e%20Faculdades!5e0!3m2!1spt-BR!2sbr!4v1582831737363!5m2!1spt-BR!2sbr" width="80%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+        </section>
+
+        <section id="sugestoes" class="container-fluid">
+          <h1>Sugestões</h1>
+          <div id="formulario" class="col-md-12 col-sm-6 col-xs-12">
+          <form action="http://www.qi.edu.br" method="post" id="form1">
+          <div class="form-group">
+            <label> Nome: </label>
+            <input type="text" name="txtnome" class="form-control" id="txtnome">
+          </div>
+
+          <div class="form-group">
+            <label> E-mail: </label>
+            <input type="email" name="email" class="form-control" id="email">
+          </div>
+
+          <div class="form-group">
+          <label> Deixe aqui sua sugestão: </label>
+          <textarea name="mensagem" rows="5" cols="30" class="form-control">
+          </textarea>
+          </div>
+
+          <p id="erro" style="color:red;font-size:14px"></p>
+          <input type="Button" value="Enviar" onclick="verifica()" class="btn">
+          <input type="reset" value="Limpar" class="btn">
+
+          </form>
+          </div>
+        </section>
+
+          <!--form trab-->
+
+          <section id="trabalho" class="container-fluid">
+            <h1>Trabalhe Conosco</h1>
+            <div id="formulario" class="col-md-12 col-sm-6 col-xs-12">
+            <form action="http://www.qi.edu.br" method="post" id="form2">
+            <div class="form-group">
+              <label> Nome: </label>
+              <input type="text" name="nome" class="form-control" id="nome">
+            </div>
+
+            <div class="form-group">
+              <label> E-mail: </label>
+              <input type="email" name="email1" class="form-control" id="email1">
+            </div>
+
+            <div>
+              <label> Sexo: </label><br>
+              <input name="sexo" type="radio" value="masculino" id="sexo"> Masculino<br>
+              <input name="sexo" type="radio" value="feminino" id="sexo"> Feminino<br>
+            </div>
+
+            <div class="org">
+              <div class="tamanho form-group">
+                <label class="espaco"> Idade: </label>
+                <input type="text" name="idade" class="form-control" id="idade">
+              </div>
+
+              <div class="tamanho2 form-group">
+                <label> Endereço: </label>
+                <input type="text" name="endereco" class="form-control" id="endereco">
+              </div>
+
+              <div class="tamanho3 form-group">
+                <label> CPF: </label>
+                <input type="text" name="cpf" class="form-control" id="cpf">
+              </div>
+
+              <div class="tamanho4 form-group">
+                <label> Telefone: </label>
+                <input type="text" name="tel" class="form-control" id="tel">
+              </div>
+          </div>
+        </div>
+
+            <p id="erro1" style="color:red;font-size:14px"></p>
+            <input type="Button" value="Enviar" onclick="verifica1()" class="btn">
+            <input type="reset" value="Limpar" class="btn">
+
+            </form>
+
+        </section>
+
+        <footer class="navbar container-fluid" id="rodape">
+          <span> Todos os direitos reservados Dani totosa e Renata - Space Cat &copy;</span>
+        </footer>
+    </div>
+
+  </body>
+</html>
