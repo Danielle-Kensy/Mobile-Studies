@@ -1,55 +1,53 @@
 import 'agencia.dart';
-import 'pessoa.dart';
+import 'cliente.dart';
 
-abstract class Conta {
-  String _numero;
-  Agencia _agencia;
-  double _saldo;
-  Pessoa _cliente;
+class Conta {
+  // Atributos
+  String? _numero;
+  Agencia? _agencia;
+  Cliente? _cliente;
+  double _saldo = 200;
+  double? _limite;
 
-  String get numero => this._numero;
-  Agencia get agencia => this._agencia;
-  Pessoa get cliente => this._cliente;
-  double get saldo => this._saldo;
-  //Método construtor
-  Conta(
+  Conta (
     this._numero,
     this._agencia,
     this._cliente,
     this._saldo,
+    this._limite
   );
 
-  set numero(String numero) {
-    this._numero = numero;
-  }
+  // String? get getNumero => this._numero;
+  // Agencia? get agencia => this._agencia;
+  // Cliente? get cliente => this._cliente;
+  // double? get limite => this._limite;
 
-  set agencia(Agencia agencia) {
-    this._agencia = agencia;
-  }
+  // set numero(String? numero) {
+  //   this._numero = numero;
+  // }
 
-  set cliente(Pessoa cliente) {
-    this._cliente = cliente;
-  }
+  // set agencia(Agencia? agencia) {
+  //   this._agencia = agencia;
+  // }
 
-  set saldo(double saldo) {
-    this._saldo = saldo;
-  }
+  // set cliente(Cliente? cliente) {
+  //   this._cliente = cliente;
+  // }
 
   //Métodos
-  double obterSaldo() {
+  double? obterSaldo() {
     return this._saldo;
   }
 
-  double sacar(double valor) {
+  double? sacar(double valor) {
     // Retirar da valor da conta
-    bool podeSacar = (this._saldo >= valor);
-    (podeSacar) ? this._saldo -= valor : false;
-    return (podeSacar) ? valor : 0;
+    this._saldo = this._saldo - valor;
+    return valor;
   }
 
   bool depositar(double valor) {
     // saldo(300) = saldo(200) + valor(100)
-    this._saldo += valor;
+    this._saldo = this._saldo + valor;
     return true;
   }
 
@@ -60,9 +58,4 @@ abstract class Conta {
     destino.depositar(valor);
     return true;
   }
-
-  //@override
-  //String toString() {
-  //  return "Conta ${this._numero}\nAgência $_agencia\nDados do Cliente:\n$_cliente";
-  // }
 }

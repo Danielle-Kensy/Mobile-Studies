@@ -3,33 +3,30 @@ import 'gerente.dart';
 
 class Agencia {
   int? _numero;
-  Endereco? _endereco;
   Gerente? _gerente;
+  Endereco? _endereco;
 
-  int? get numero => this._numero;
-  Endereco? get endereco => this._endereco;
-  Gerente? get gerente => this._gerente;
-  //Método construtor
-  Agencia(
+  Agencia (
     this._numero,
     this._gerente,
-    this._endereco,
+    this._endereco
   );
 
-  set numero(int? numero) {
-    this._numero = numero;
-  }
+  // Buscar/pegar infos
+  // int? get numero => this._numero;
+  // Gerente? get gerente => this._gerente;
+  // Endereco? get endereco => this._endereco;
 
-  set endereco(Endereco? endereco) {
-    this._endereco = endereco;
-  }
+  // // Modificar as infos
+  // set numero(int? valor) {
+  //   this._numero = valor;
+  // }
 
-  set gerente(Gerente? gerente) {
-    this._gerente = gerente;
-  }
+  // set gerente(Gerente? gerente) {
+  //   this._gerente = gerente;
+  // }
 
-  @override
-  String toString() {
-    return "Número: ${this._numero}, Endereço: ${this._endereco}, Gerente: ${this._gerente}";
-  }
+  // set endereco(Endereco? endereco) {
+  //   this._endereco = endereco;
+  // }
 }
